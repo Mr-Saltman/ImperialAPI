@@ -21,4 +21,14 @@ public class ConverterTest {
 
 
     }
+
+    @Test
+    public void testYardToMeter(){
+        double yard = 1;
+        double expectedResult = 0.9140767824497257;
+
+        double result = converter.YardToMeter(yard);
+
+        Assertions.assertEquals(expectedResult, result);
+    }
 }

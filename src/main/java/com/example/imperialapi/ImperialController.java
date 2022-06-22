@@ -13,4 +13,9 @@ public class ImperialController {
     public double InchToCm(@RequestParam double inch){
         return converter.InchToCm(inch);
     }
+
+    @RequestMapping("/YdToM")
+    public double YardToMeter(@RequestParam double yard){
+        return converter.YardToMeter(yard);
+    }
 }

@@ -6,4 +6,8 @@ public class Converter {
         return inch*2.54;
     }
 
+    public double YardToMeter(double yard){
+        return yard/1.094;
+    }
+
 }
